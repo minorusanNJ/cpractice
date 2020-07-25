@@ -9,10 +9,11 @@ int main(void)
     char    name[50]="Denshi Kobe"; //名前
     char    age[3]="72"; //年齢
     char    sex[10]="男性"; //性別
+    char    hobby[30]="Squba diving";
 
     //今回は、宣言時に内容を設定してあります。
 
-    pfile = fopen("test.txt","w"); //ファイルに名前を付けて、書き込みとしてファイルを開く
+    pfile = fopen("data.txt","w"); //ファイルに名前を付けて、書き込みとしてファイルを開く
     
     //fopen("ファイル名","書き込み形式") 取り敢えず、ｗが書き込み、ｒが読み取り
 
