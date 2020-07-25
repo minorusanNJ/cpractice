@@ -7,16 +7,16 @@
 int main(void)
 {
     FILE    *pfile;
-    char    Eng[50];    
-    char    Jap[50];
-    char    Grad[3];
+    char    Eng[80];    
+    char    Jap[80];
+    char    Grad[10];
     char    fname[] = "JHwords.csv";// 作成してある単語のリストです。このデータの作成方法は、学校で聞いてください。
 
     int     i=1;
     
-    char    E[1520][50];// ここでは、1517個の単語が有るので、それに番号付をします。
-    char    J[1520][50];
-    char    G[1520][3];
+    char    E[1520][80];// ここでは、1517個の単語が有るので、それに番号付をします。
+    char    J[1520][80];
+    char    G[1520][10];
     
     
 
